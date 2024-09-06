@@ -1,1 +1,1 @@
-web gunicorn parenting.wsgi:application --log-file -
+web: gunicorn parenting.wsgi --log-file -
