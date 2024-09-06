@@ -4,12 +4,7 @@
         "use": "@ardnt/vercel-python-wsgi",
         "config": { "maxLambdaSize": "15mb" }
     }],
-    "routes": [
-        {
-            "src": "/(.*)",
-            "dest": "parenting/wsgi.py"
-        }
-    ],
+
 
      "rewrites": [{ "source": "/(.*)", "destination": "/" }] 
 
