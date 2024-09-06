@@ -9,5 +9,9 @@
             "src": "/(.*)",
             "dest": "parenting/wsgi.py"
         }
-    ]
+    ],
+
+     "rewrites": [{ "source": "/(.*)", "destination": "/" }] 
+
+    
 }
